@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="InfiniteViewPagerWithIndicatorLayout">
+    <attr name="indicatorType" format="enum">
+      <enum name="indicatorAnimCircle" value="1" />
+    </attr>
+  </declare-styleable>
+    <declare-styleable name="AnimationIndicator">
+    <attr name="indicatorWidth" format="dimension" />
+    <attr name="indicatorHeight" format="dimension" />
+    <attr name="indicatorMargin" format="dimension" />
+    <attr name="indicatorAnimator" format="reference" />
+    <attr name="indicatorDrawable" format="reference" />
+  </declare-styleable>
+</resources>

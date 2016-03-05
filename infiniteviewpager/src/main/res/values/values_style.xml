@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--InfiniteViewPagerWithIndicatorLayout的Indicator位置-->
+  <style name="Center">
+    <item name="android:gravity">center</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:layout_centerInParent">true</item>
+  </style>
+
+  <style name="CenterBottom">
+    <item name="android:gravity">center</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:layout_alignParentBottom">true</item>
+    <item name="android:layout_centerHorizontal">true</item>
+  </style>
+
+  <style name="BottomRight">
+    <item name="android:gravity">center</item>
+    <item name="android:layout_alignParentBottom">true</item>
+    <item name="android:layout_alignParentRight">true</item>
+    <item name="android:padding">10dp</item>
+  </style>
+
+  <style name="BottomLeft">
+    <item name="android:gravity">center</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:layout_alignParentBottom">true</item>
+    <item name="android:layout_alignParentLeft">true</item>
+  </style>
+
+  <style name="CenterTop">
+    <item name="android:gravity">center</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:layout_alignParentTop">true</item>
+    <item name="android:layout_centerHorizontal">true</item>
+  </style>
+
+  <style name="TopRight">
+    <item name="android:gravity">center</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:layout_alignParentTop">true</item>
+    <item name="android:layout_alignParentRight">true</item>
+  </style>
+
+  <style name="TopLeft">
+    <item name="android:gravity">center</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:layout_alignParentTop">true</item>
+    <item name="android:layout_alignParentLeft">true</item>
+  </style>
+
+</resources>

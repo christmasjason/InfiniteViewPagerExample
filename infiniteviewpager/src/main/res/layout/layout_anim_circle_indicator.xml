@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <android.support.v4.view.ViewPager
+      android:id="@+id/vp_advertise"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <com.christmas.infiniteviewpager.indicator.AnimationIndicator
+      android:id="@+id/ai_center"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      style="@style/Center"/>
+
+  <com.christmas.infiniteviewpager.indicator.AnimationIndicator
+      android:id="@+id/ai_center_bottom"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      style="@style/CenterBottom"/>
+
+  <com.christmas.infiniteviewpager.indicator.AnimationIndicator
+      android:id="@+id/ai_bottom_right"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      style="@style/BottomRight"/>
+
+  <com.christmas.infiniteviewpager.indicator.AnimationIndicator
+      android:id="@+id/ai_bottom_left"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      style="@style/BottomLeft"/>
+
+  <com.christmas.infiniteviewpager.indicator.AnimationIndicator
+      android:id="@+id/ai_center_top"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      style="@style/CenterTop"/>
+
+  <com.christmas.infiniteviewpager.indicator.AnimationIndicator
+      android:id="@+id/ai_top_right"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      style="@style/TopRight"/>
+
+  <com.christmas.infiniteviewpager.indicator.AnimationIndicator
+      android:id="@+id/ai_top_left"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      style="@style/TopLeft"/>
+
+</RelativeLayout>
